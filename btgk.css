@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", Arial, sans-serif;
+  background-image: url('img/bgcf-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.menu-container{
+  background-color: rgba(255, 255, 255, 0.92);
+  border-radius: 15px;
+  padding: 30px 50px;
+  max-width: 500px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+.menu-header{
+  text-align: center;
+  margin-bottom: 25px;
+}
+.logo{
+  width: 120px;
+  height: auto;
+  margin-bottom: 10px;
+}
+.menu-header h1{
+  font-size: 28px;
+  color: #4b2e2b;
+  margin: 5px 0;
+}
+.menu-header p{
+  font-style: italic;
+  color: #6d4b3e;
+  margin-bottom: 15px;
+}
+h2{
+  color: #3a2b2b;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  margin-top: 20px;
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+td{
+  padding: 6px 0;
+  text-align: left;
+  color: #333;
+  font-size: 15px;
+}
+td:last-child{
+  text-align: right;
+  font-weight: bold;
+}
+.note{
+  margin-top: 20px;
+  font-size: 13px;
+  color: #666;
+  font-style: italic;
+}
+.contact {
+  margin-top: 25px;
+}
+.contact h3 {
+  color: #3a2b2b;
+  margin-bottom: 10px;
+}
+.contact a {
+  color: #0044cc;
+  text-decoration: none;
+}
+.contact a:hover {
+  text-decoration: underline;
+}
+table tr:hover {
+  background-color: rgba(255, 248, 240, 0.7);
+  box-shadow: 0 2px 8px rgba(120, 80, 40, 0.2);
+  transform: scale(1.02);
+}
